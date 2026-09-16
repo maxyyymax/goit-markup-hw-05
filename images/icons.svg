@@ -1,5 +1,16 @@
 <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" aria-hidden="true" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        .default-palette, .palette0 {color: currentColor;
+            --color0: #fff;
+        }
+    </style>
     <defs>
+        <symbol id="illustration3" viewBox="0 0 24 20" fill="none">
+            <path fill="var(--color0, #fff)" d="M24 0 0 11.25l7.6699 2.3672L19.5 4.375 10.5017 14.4913l73e-4 23e-4-9e-3-23e-4V20l4.3013-4.1817 5.4488 1.6817z" />
+        </symbol>
+        <symbol id="Checkbox" viewBox="0 0 14 14" fill="none">
+            <rect stroke-width="0.875" stroke="currentColor" stroke-opacity="0.4" width="13.125" height="13.125" rx="1.3125" x="0.4375" y="0.4375" />
+        </symbol>
         <symbol id="icons" viewBox="0 0 929 929" aria-hidden="true" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
             <defs>
                 <symbol id="linkedin" viewBox="0 0 16 16" fill="none">
