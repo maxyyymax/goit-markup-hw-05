@@ -125,21 +125,21 @@
 }
 
 .footer-subscribe {
-  display: flex auto;
-  margin: auto;
+  display: flex;
+  margin-left: auto;
 }
 
 .footer-subscribe-form {
   display: flex;
   gap: 24px;
-  justify-content: right;
-}
-
-.footer-subscribe-label {
-  line-height: 1.17;
+  align-items: flex-start;
 }
 
 .footer-subscribe-label:hover,
 .footer-subscribe-label:focus {
   color: #31d0aa;
+}
+
+.footer-subscribe-input {
+  line-height: 1.17;
 }
