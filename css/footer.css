@@ -87,7 +87,7 @@
 
 .footer-subscribe-input:focus {
   outline: none;
-  border-color: #4d5ae5;
+  border-color: #31d0aa;
 }
 .footer-subscribe-btn {
   min-width: 165px;
@@ -110,7 +110,7 @@
 
 .footer-subscribe-btn:hover,
 .footer-subscribe-btn:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 .footer-subscribe-icon {
@@ -120,4 +120,26 @@
 
 .footer-subscribe-title {
   color: #ffffff;
+  margin-bottom: 16px;
+  font-weight: 500;
+}
+
+.footer-subscribe {
+  display: flex auto;
+  margin: auto;
+}
+
+.footer-subscribe-form {
+  display: flex;
+  gap: 24px;
+  justify-content: right;
+}
+
+.footer-subscribe-label {
+  line-height: 1.17;
+}
+
+.footer-subscribe-label:hover,
+.footer-subscribe-label:focus {
+  color: #31d0aa;
 }

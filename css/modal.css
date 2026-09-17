@@ -65,7 +65,7 @@
   background-color: #e7e9fc;
   cursor: pointer;
 
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 50%;
   transition:
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -77,7 +77,7 @@
   border: none;
 }
 .modal-btn-icon {
-  color: #404bbf;
+  color: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
