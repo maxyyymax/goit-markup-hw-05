@@ -126,6 +126,7 @@
 
 .footer-subscribe {
   display: flex;
+  flex-direction: column;
   margin-left: auto;
 }
 

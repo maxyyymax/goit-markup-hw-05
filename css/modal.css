@@ -36,7 +36,7 @@
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.backdrop:not(is-open) .modal {
+.backdrop:not(.is-open) .modal {
   transform: translate(-50%, -50%) scale(0.9);
 }
 .modal-cross-btn {
@@ -127,10 +127,10 @@
   left: 16px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: #2e2f42;
+  color: #404bbf;
 }
 .modal-input:focus + .form-input-icon {
-  fill: #4d5ae5;
+  color: #4d5ae5;
 }
 .form-comment-div {
   margin-bottom: 16px;
@@ -210,5 +210,18 @@
 }
 
 .form-textarea::placeholder {
-  color: #8e8f99;
+  color: rgba(46, 47, 66, 0.4);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
